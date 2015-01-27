@@ -1,3 +1,8 @@
+// MIDITools-JS
+// Created for GeckoGames usage
+//
+// https://github.com/geckogames/miditools-js
+//
 window.addEventListener("load", function () {
     var MIDIInterface = function () {
         this.promise = navigator.requestMIDIAccess();
